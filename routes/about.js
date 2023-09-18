@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'I - Twin Traders' });
+  res.render('about', { value : "This is about page" });
 });
 
 module.exports = router;
